@@ -1,0 +1,673 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #404258;
+    font-family: 'Heebo', sans-serif;
+}
+
+/*---------Footer----------*/
+footer {
+    background-color: #474E68;
+    text-align: center;
+    bottom: 0;
+    position: relative;
+    color: white;
+    border-top: 4px solid #37394b;
+    padding: 2em;
+}
+
+.footertextyz {
+    margin: auto;
+    width: 86%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+.footertext {
+    width: 100%;
+    padding-left: 4em;
+    padding-right: 4em;
+
+}
+
+.velkyfooter {
+    font-size: 2em;
+}
+
+/*---------------------------*/
+
+/*-------------Obsah stránky--------------*/
+
+.telo-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.xd {
+    margin: auto;
+    width: 86%;
+    background-color: #5c648d;
+    font-size: 1.5em;
+    color: white;
+    border-right: #37394b 4px solid;
+    border-left: #37394b 4px solid;
+    padding: 1em;
+}
+
+.telo-flex-rezp {
+    display: none;
+}
+
+.telo-rezp-sloupce {
+    display: none;
+}
+
+.telo-flex-typy {
+    display: flex;
+    flex-direction: row;
+}
+
+.telo-rezp-sloupce-prace {
+    display: flex;
+    padding: 1em;
+}
+
+.pravaprace-rezp {
+    display: none;
+}
+
+/*---------------------------------------*/
+
+/*------------------Menu-----------------*/
+.nadpisstr {
+    font-size: 3em;
+    border-bottom: 4px solid #37394b;
+    padding: 0.3em;
+    padding-top: 0.5em;
+    margin-bottom: 0px;
+    background-color: #474E68;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    background-color: rgb(35, 46, 49);
+    border-bottom: 4px solid #37394b;
+}
+
+.menupolozky {
+    background-color: #404258;
+    width: 16.6%;
+    margin-left: 0.2em;
+    padding: 0.7Em;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.leva1 {
+    width: 50%;
+    padding-right: 1em;
+}
+
+.prava1 {
+    width: 50%;
+}
+
+.menuresponz {
+    display: none;
+    font-size: 3em;
+    border-bottom: 4px solid #37394b;
+    padding: 0.3em;
+    padding-top: 0.35em;
+    margin-bottom: 0px;
+    margin-right: 0;
+    background-color: #474E68;
+    color: white;
+    text-align: center;
+}
+
+.menureponzpolozky {
+    display: none;
+    position: absolute;
+    background-color: #404258;
+    width: 100%;
+    font-size: 0.1em;
+    margin-left: 0.2em;
+    padding: 0.7Em;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    border-bottom: 4px solid #37394b;
+}
+.menupolozky:hover {
+    background-color: #5c648d;
+}
+
+.prvni-menu {
+    margin-left: 0;
+}
+
+.naklik-menu {
+    background-color: #5c648d;
+    border-left: #37394b solid 4px;
+}
+.hedr {
+    width: 100%;
+    display: flex;
+}
+
+.menureponzpolozky1 {
+    top: 20%;
+}
+
+/*-----------------------------------------*/
+
+/*-------------Rozložení Obsahu---------------*/
+.obrtext {
+    border-radius: 1em;
+    border: #37394b 4px solid;
+}
+
+.obrtextbot1 {
+    margin-bottom: 7em;
+}
+
+.obrtexttop1 {
+    margin-top: 5em;
+}
+
+.obrtextbot2 {
+    margin-bottom: 2em;
+}
+
+.obrtextbot3 {
+    margin-bottom: 3em;
+}
+
+.obrtexttop2 {
+    margin-top: 1.5em;
+}
+
+.text1 {
+    padding-top: 2em;
+}
+
+.text3 {
+    padding-top: 1em;
+}
+
+.text4 {
+    padding-top: 2.5em;
+}
+
+.levaprace {
+    width: 100%;
+}
+
+.pravaprace {
+    width: 50%;
+    float: right;
+    padding: 1Em;
+}
+
+.velkynadpis {
+    font-size: 2em;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.obrtextprogram1 {
+    margin-top: 4em;
+}
+
+.texttypy1 {
+    margin-top: 8em;
+}
+
+.obrtexttoptypy1 {
+    margin-top: 4em;
+}
+
+.obrtexttoptypy2 {
+    margin-top: 4em;
+}
+.obrtexttoppouziti1 {
+    margin-top: 9em;
+}
+.obrtextbotpouziti1 {
+    margin-bottom: 1em;
+}
+
+/*--------Uvodní Stránka-------------*/
+.uvodflex{
+    display: flex;
+    margin: auto;
+}
+.uvod{
+    flex-direction: row;
+    border-radius: 1em;
+    border: #37394b 6px solid;
+    width: 33%;
+    background-color: #37394b ;
+    text-align: center;
+    margin:1em ;
+    padding-bottom: 1Em;
+}
+.obrtextuvod{
+    border-radius: 1em;
+    border-bottom: 6px solid #37394b;
+    height: 90%;
+}
+.uvododkaz{
+    color: white;
+    text-decoration: none;
+}
+.uvodmargin{
+    margin-left: 16.5%;
+}
+
+
+@media screen and (max-width:1200px) {
+    .uvodflex{
+        flex-direction: column;
+        margin-left:23.7%;
+        width: 70%;
+    }
+    .uvod{
+        width: 70%;
+    }
+}
+/*-----------------------------------------*/
+
+
+
+/*-----------Obsah reponzivni -------------*/
+
+@media screen and (max-width: 1800px) {
+    .text1 {
+        padding-top: 0em !important;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    .obrtexttop1 {
+        margin-top: 1em !important;
+    }
+
+    .obrtextbot1 {
+        margin-bottom: 5.5em !important;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .telo-flex {
+        display: none;
+    }
+
+    .telo-rezp-sloupce {
+        display: flex;
+    }
+
+    .obrtexttop1 {
+        margin-top: 0em !important;
+        margin-bottom: 2em !important;
+    }
+
+    .obrtextbot1 {
+        margin-bottom: 2em !important;
+    }
+
+    .obrtexttop2 {
+        margin-bottom: 1em !important;
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+    .telo-rezp-sloupce {
+        display: none;
+    }
+
+    .telo-flex-rezp {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 90%;
+    }
+
+    .leva1 {
+        width: 100%;
+    }
+
+    .prava1 {
+        width: 100%;
+    }
+
+    .xd {
+        width: 100%;
+    }
+
+}
+
+
+/*----------------------------------------------------*/
+
+/*------------------Prace responzivni------------------*/
+@media screen and (max-width: 920px) {
+    .pravaprace-rezp {
+        display: block;
+        padding-top: 1Em;
+    }
+
+    .pravaprace {
+        display: none;
+    }
+}
+
+/*-----------------------------------------------------*/
+
+/*------------------Programy responzivni----------------*/
+
+@media screen and (max-width: 1850px) {
+    .obrtextprogram1 {
+        margin-top: 5em !important;
+    }
+
+    .obrtextbot1 {
+        margin-bottom: 5em;
+    }
+}
+
+/*------------------------------------------------------*/
+
+/*------------------Typy reponzivni-----------------*/
+@media screen and (max-width:1000px) {
+    .telo-flex-typy {
+        display: none;
+    }
+
+    .telo-rezp-sloupce {
+        display: none;
+    }
+
+    .telo-flex-rezp {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 90%;
+    }
+
+    .leva1 {
+        width: 100%;
+    }
+
+    .prava1 {
+        width: 100%;
+    }
+
+    .xd {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:1400px) {
+    .obrtexttoptypy2 {
+        margin-top: 0 !important;
+    }
+
+    .obrtypy2 {
+        margin-top: 4em !important;
+    }
+
+}
+
+@media screen and (max-width:1600px) {
+    .obrtexttoptypy2 {
+        margin-top: 1em;
+    }
+    .texttypy1 {
+        margin-top: 2em;
+    }
+}
+@media screen and (max-width:1800px) {
+
+    .texttypy1 {
+        margin-top: 4em;
+    }
+}
+
+/*--------------------------------------------------------*/
+
+
+
+/*-----------------Footer responivni--------------------*/
+
+@media screen and (max-width: 1300px) {
+    .footertextyz {
+        flex-direction: column;
+        width: 100%;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+}
+
+@media screen and (max-width: 1500px) {
+    .footertexty {
+        flex-direction: column;
+        width: 100%;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+
+}
+
+/*--------------------------------------------------------*/
+
+
+
+/*-----------------Menu položky responivni--------------------*/
+@media screen and (max-width: 1828px) {
+    .menupolozka {
+        padding-top: 0.5em;
+    }
+}
+
+@media screen and (max-width: 1311px) {
+    .menupolozka2 {
+        padding-top: 0.73em;
+    }
+
+}
+
+@media screen and (max-width: 1310px) {
+    .menupolozka2 {
+        padding-top: 0;
+    }
+
+}
+
+@media screen and (max-width: 1227px) {
+    .menupolozka {
+        padding-top: 1em;
+    }
+
+    .menupolozka2 {
+        padding-top: 0.6em;
+    }
+}
+
+@media screen and (max-width: 1255px) {
+    .menupolozka5 {
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 1227px) {
+    .menupolozka5 {
+        padding-top: 0.6em;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .menupolozka5 {
+        padding-top: 0.4em;
+    }
+
+    .menupolozka2 {
+        padding-top: 0.4em;
+    }
+}
+
+@media screen and (max-width: 875px) {
+    .menupolozka3 {
+        padding-top: 0.2em;
+    }
+
+}
+
+@media screen and (max-width: 1165px) {
+    .menupolozka {
+        padding-top: 1.6em;
+    }
+
+    .menupolozka2 {
+        padding-top: 1.2em;
+    }
+}
+
+@media screen and (min-width: 1170px) {
+    .menupolozka5 {
+        padding-top: 0.2em;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .menupolozka5 {
+        padding-top: 0;
+    }
+
+}
+
+/*----------------------------------------------------*/
+
+
+
+
+
+/*------------------Menu 3 čáry----------------------*/
+@media screen and (max-width: 850px) {
+    .menu {
+        display: none;
+    }
+
+    h1 {
+        float: left;
+    }
+
+    .hedr {
+        display: flex;
+    }
+
+    .menuresponz {
+        display: block;
+        width: 23%;
+    }
+
+    .nadpisstr {
+        text-align: left;
+        padding-top: 5.5% !important;
+        width: 77%;
+    }
+
+    .menuresponz:hover .menureponzpolozky {
+        left: 0;
+        display: block;
+    }
+
+    .menuresponz:hover {
+        background-color: #37394b;
+    }
+
+    .menureponzpolozky {
+        font-size: 30px;
+        width: 100%;
+        float: left;
+        padding: 0 !important;
+        margin-top: 0.5em !important;
+        height: 2em !important;
+        padding-top: 0.22em !important;
+        z-index: 1;
+        position: absolute;
+    }
+
+    .menureponzpolozkys {
+        border-top: 5px solid #37394b;
+    }
+
+    .menureponzpolozky2 {
+        margin-top: 2.5em !important;
+    }
+
+    .menureponzpolozky3 {
+        margin-top: 4.5em !important;
+    }
+
+    .menureponzpolozky4 {
+        margin-top: 6.5em !important;
+    }
+
+    .menureponzpolozky5 {
+        margin-top: 8.5em !important;
+    }
+
+    .menureponzpolozky6 {
+        margin-top: 10.5em !important;
+        border-bottom: 5px solid #37394b;
+    }
+
+    .menulogo {
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    .menureponzpolozky {
+        font-size: 25px;
+    }
+
+}
+
+/*-----------------------------------------------------------*/
+
+
+
+
+/*----------barvy-----------*/
+.ukazkabarev {
+    background-color: #5c648d;
+    /*---obsah a menu hover----*/
+    background-color: #474E68;
+    /*---Nadpis a footer---*/
+    background-color: #404258;
+    /*---body a menu tlacitka---*/
+    background-color: #37394b;
+    /*---bordery---*/
+}
